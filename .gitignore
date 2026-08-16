@@ -1,0 +1,25 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# User dataset and trained models (privacy & storage)
+dataset/*
+!dataset/.gitkeep
+
+trainer/*
+!trainer/.gitkeep
+
+# SQLite database & CSV exports
+*.db
+exports/*
+!exports/.gitkeep
+
+# Environments & IDE settings
+.venv/
+venv/
+ENV/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
